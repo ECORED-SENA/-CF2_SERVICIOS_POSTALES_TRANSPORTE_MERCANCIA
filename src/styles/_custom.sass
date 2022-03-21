@@ -1,0 +1,49 @@
+//- tamaño
+.img90
+  max-width: 90px !important
+.img160
+  max-width: 160px !important
+.img250
+  max-width: 250px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img850
+  max-width: 850px !important
+.img900
+  max-width: 900px !important
+
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: absolute
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(10px)
+
+  100%
+    transform: translateY(0px)
+
+.justify-center
+  display: flex
+  justify-content: center !important
+  flex-direction: row
+.justify-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+.justify-star
+  display: flex
+  justify-content: flex-start
+  flex-direction: row
+
+ 

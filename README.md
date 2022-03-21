@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **CF2 - Servicios postales y transporte de mercancía**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[ttps://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/](ttps://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/)
 
 #
 
