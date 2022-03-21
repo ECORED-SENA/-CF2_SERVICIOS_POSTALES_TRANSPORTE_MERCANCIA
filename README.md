@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[ttps://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/](ttps://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/)
+[https://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/](ttps://ecored-sena.github.io/CF2_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/)
 
 #
 
