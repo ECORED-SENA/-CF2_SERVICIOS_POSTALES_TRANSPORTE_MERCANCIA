@@ -12,22 +12,51 @@
       .col-12.col-md-7.col-lg-7.mb-3(data-aos="fade-right")
         p La Ley 1369 de 2009 define los servicios postales como servicios de calidad, prestados de forma constante y permanente a precios asequibles, que el Estado debe garantizar en todo el territorio nacional, independientemente de la ubicación geográfica. Es a través de Operadores Postales Oficiales (OPO) o a través de un concesionario de correo que son prestados dichos servicios. 
         p De acuerdo con lo anterior, los servicios han venido evolucionando a medida que evoluciona la conectividad persona a persona; en ese proceso de cambios e innovaciones se destacan las siguientes generalidades:
+      
+      
       .col-12.ccol-md-5.col-lg-5(data-aos="fade-left")
         .imagen-adornos-flotantes
           img.img400(src="@/assets/curso/tema2/t2-1.png" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema2/sobre2.svg" style="left: ; right: 47% ; top: ; bottom: -6% ; width: 170px ")
       
-      .infografia-autores.p-5(data-aos="zoom-in-up")
-        img(src="@/assets/curso/tema2/t2-2.svg" alt="Adornos flotantes")
-        .infografia-autores__img(@mouseover="mostrarIndicador = false")
-          img(src="@/assets/curso/tema2/1.png" style="left: 37.8% ; right:  ; top: 20.2% ; bottom:  ; width: 115px ")
-          .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/2.png" style="left: 51.2% ; right:  ; top: 20.4% ; bottom:  ; width: 115px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/3.png" style="left: 57.9% ; right:  ; top: 43% ; bottom:  ; width: 115px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/4.png" style="left: 51.2% ; right:  ; top: 65% ; bottom:  ; width: 115px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/5.png" style="left: 37.8% ; right:  ; top: 65% ; bottom:  ; width: 115px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/6.png" style="left: 31.1% ; right:  ; top: 42.5% ; bottom:  ; width: 115px ")
-      
+      ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in-up")
+        template(v-slot:imagen)
+
+          .infografia-autores.p-5(data-aos="zoom-in-up")
+            img(src="@/assets/curso/tema2/t2-2.svg" alt="Adornos flotantes")
+            .infografia-autores__img(@mouseover="mostrarIndicador = false")
+              img(src="@/assets/curso/tema2/1.png" style="left: 37.8% ; right:  ; top: 20.2% ; bottom:  ; width: 130px ")
+              .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/2.png" style="left: 51.2% ; right:  ; top: 20.4% ; bottom:  ; width: 130px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/3.png" style="left: 57.9% ; right:  ; top: 43% ; bottom:  ; width: 130px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/4.png" style="left: 51.2% ; right:  ; top: 65% ; bottom:  ; width: 130px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/5.png" style="left: 37.8% ; right:  ; top: 65% ; bottom:  ; width: 130px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/6.png" style="left: 31.1% ; right:  ; top: 42.5% ; bottom:  ; width: 130px ")
+        .tarjeta.color-acento-botones.p-3(x="33%" y="26%" numero="+")
+          h4 La evolución o revolución 
+          p Logra aumentar las posibilidades de supervivencia de una civilización en términos de mayor expectativa de años de vida. Los primeros servicios postales en la era antigua eran mensajero a pie o  a caballo.
+        .tarjeta.color-acento-botones.p-3(x="75%" y="26%" numero="+")
+          h4 Mejoras significativas y sustantiva
+          p Escritura continua, codificación, seguridad, empaque, viabilidad y el nacimiento de las primeras organizaciones especializadas en servicios de mensajería, que principalmente estaban en mejor grado de formalización para las casas regentes, monarquías y comerciantes de alto nivel y hasta las diligencias de las oficinas postales movidas por caballos.
+        .tarjeta.color-acento-botones.p-3(x="83%" y="58%" numero="+")
+          h4 Segundo salto 
+          p El ferrocarril fue el primero, luego los automóviles con especialización de bodega.
+        .tarjeta.color-acento-botones.p-3(x="89%" y="85%" numero="+")
+          h4 Tercer salto  
+          p La llegada de la era digital aniquiló todo servicio de carta escrita, dejando solo la movilización de paquetes con usos específicos.
+        .tarjeta.color-acento-botones.p-3(x="19%" y="93%" numero="+")
+          h4 Los servicios postales  
+          p Haciendo uso de las redes postales, este proceso se realiza en el territorio nacional para envíos a otros países o para recibir del exterior.
+        .tarjeta.color-acento-botones.p-3(x="16%" y="62%" numero="+")
+          h4 Se clasifican  
+          p …Y otros servicios postales que estén catalogados, como tal, en la unión postal universal.
+
+
+
+        
+
+
+
     separador
         
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
