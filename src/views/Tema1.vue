@@ -12,7 +12,7 @@
       .col-12.col-md-4.col-lg-4.mb-2(data-aos="fade-right")
        .imagen-adornos-flotantes
           img(src="@/assets/curso/tema1/t1-1.png" alt="Adornos flotantes")
-          .imagen-adornos-flotantes__img: img.img160(src="@/assets/curso/tema1/sobre.svg" style="left: ; right: 30% ; top: ; bottom: -1% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/sobre.svg" style="left: ; right: 10% ; top: ; bottom: -12% ; width: 170px ")
       .col-12.col-md-8.col-lg-8(data-aos="fade-left")
         p Los servicios postales están definidos en la #[strong Ley 1369 de 2009] y se entienden como “las actividades de recepción, clasificación, transporte y entrega de objetos postales a través de redes postales, en el territorio nacional o para enviar a otros países o recibir del exterior, estos se clasifican en servicio de correo, servicios postales de pago, servicios de mensajería expresa y otros servicios postales, definidos como aquellos que la unión postal universal clasifique como tales” (MinTIC, 2020, p. 19).
         p Es así como el punto de partida para abordar el tema de servicios postales es:

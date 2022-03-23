@@ -5,6 +5,8 @@
   max-width: 160px !important
 .img250
   max-width: 250px !important
+.img300
+  max-width: 300px !important
 .img350
   max-width: 350px !important
 .img400
@@ -32,7 +34,7 @@
 
   100%
     transform: translateY(0px)
-
+//alinear contenido//
 .justify-center
   display: flex
   justify-content: center !important
@@ -45,5 +47,37 @@
   display: flex
   justify-content: flex-start
   flex-direction: row
+.align-items-center
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 
- 
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/interno.svg") !important
+  background-repeat: no-repeat  
+
+.infografia-autores
+  position: relative
+  &__img
+    img
+      position: absolute
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      &:hover
+        opacity: 1
+
+.bgr
+  background-color: #FFEECA
+  &_1
+    background-color: #FFDE96 !important
+  
+  
+  
+//clases sobreescritas//
+.cajon.bgr:before
+  background-color: #FED981 !important
+.tarjeta--azul
+  background-color: #FFF6E2 !important
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 0px !important

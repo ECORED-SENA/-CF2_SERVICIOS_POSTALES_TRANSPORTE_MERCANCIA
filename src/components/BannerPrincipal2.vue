@@ -17,9 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.position-relative.img-p
         img(:src="globalData.imagenBannerPrincipal" style="width: 420px")
-    .imagen_flotante_1: img(src="@/assets/curso/carta1.svg").d-none.d-lg-block
+    .imagen_flotante_1: img(src="@/assets/curso/carta1.svg")
     .imagen_flotante_2: img(src="@/assets/curso/carta2.svg").d-none.d-lg-block
-    .imagen_flotante_3: img(src="@/assets/curso/circulo.svg").d-none.d-lg-block
+    .imagen_flotante_3: img(src="@/assets/curso/circulo.svg")
     .imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/carta-in.svg")
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
