@@ -9,7 +9,7 @@
       h1 Normativa asociada
     
     .row.mb-5
-      .col-12.col-md-4.col-lg-4.mb-2(data-aos="fade-right")
+      .col-12.col-md-4.col-lg-4.mb-4(data-aos="fade-right")
        .imagen-adornos-flotantes
           img(src="@/assets/curso/tema1/t1-1.png" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/sobre.svg" style="left: ; right: 10% ; top: ; bottom: -12% ; width: 170px ")

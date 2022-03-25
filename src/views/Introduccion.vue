@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.colorw
       h1 Introducción
     
     p Se da la bienvenida al componente formativo #[strong “Recibo de mercancías”], en este abordará entre otros temas clave, la codificación aplicable en el manejo de servicios y la documentación que soporta su trazabilidad y seguimiento. Para comenzar explore el recurso que se propone a continuación. 

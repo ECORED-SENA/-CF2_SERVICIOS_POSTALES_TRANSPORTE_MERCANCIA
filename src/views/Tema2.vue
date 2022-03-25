@@ -21,6 +21,27 @@
       
       ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in-up")
         template(v-slot:imagen)
+          .row.modalabso
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                span Más Información
+                .indicador--click(v-if="mostrarIndicador")
+      
+    
+          ModalA(:abrir-modal.sync="modal1")
+            .row.align-items-center
+              .col-md-12.mb-4.mb-md-0  
+                h4 Se clasifican  
+                h5 Mensajería Expresa
+                p Es un servicio postal, catalogado como urgente, requiere la implementación de procesos especiales para la recepción, recolección, clasificación, transporte y entrega de los objetos postales; estos no pueden superar los 5 kilogramos de peso.
+                h5 Servicios postales de pago
+                p son servicios de pago suministrados, a través del uso de infraestructura exclusivamente postal.
+                h5 Los giros nacionales
+                p Son servicios postales de pago, a  través de los cuales se ordena hacer un pago a una persona jurídica o natural, ordenado por otra persona en el territorio nacional y haciendo uso de la red postal.
+                h5 Otros servicios postales de pago son los giros internacionales
+                p En este servicio exclusivo del  operador postal oficial o de un concesionario de correo, se envía dinero a personas jurídicas o naturales.  Igualmente es ordenado por otra persona jurídica o natural en el exterior; los giros internacionales son regulados por la Ley 9 de 1991.
+                h5 Servicios de correo
+                p Otros servicios de correo son los demás servicios que la unión postal universal cataloga como tal.
 
           .infografia-autores.p-5(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema2/t2-2.svg" alt="Adornos flotantes")
@@ -47,15 +68,8 @@
         .tarjeta.color-acento-botones.p-3(x="19%" y="93%" numero="+")
           h4 Los servicios postales  
           p Haciendo uso de las redes postales, este proceso se realiza en el territorio nacional para envíos a otros países o para recibir del exterior.
-        .tarjeta.color-acento-botones.p-3(x="16%" y="62%" numero="+")
-          h4 Se clasifican  
-          p …Y otros servicios postales que estén catalogados, como tal, en la unión postal universal.
-
-
-
-        
-
-
+      
+      
 
     separador
         
@@ -199,6 +213,7 @@ export default {
     BannerInterno,
   },
   data: () => ({
+    modal1: false,
     datosSlyder: [
       {
         titulo: 'La carta',

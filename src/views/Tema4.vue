@@ -85,7 +85,7 @@
         span.text-bold p. 
         | Número total de envíos.
 
-    .row.justify-center.mb-5(data-aos="zoom-in-up")
+    .row.justify-center.mb-3(data-aos="zoom-in-up")
       .col-12.col-md-8.col-lg-8
         TabsC.color-primario
           .py-3.py-md-4.bgr_3.p-4(titulo="¡Atención!")
@@ -95,12 +95,14 @@
             p.m-0 Informe de novedades.
             p.m-0 Informe de gestión documental.
           .py-3.py-md-4.bgr_3.p-4(titulo="¡Importante!")
-            p Los informes explicados anteriormente permiten que la empresa evalúe e inspeccione los procesos, realice seguimientos e implemente planes y acciones de mejora continua, para el cumplimiento de entregas oportunas y demás objetivos organizacionales.    
+            p Los informes explicados anteriormente permiten que la empresa evalúe e inspeccione los procesos, realice seguimientos e implemente planes y acciones de mejora continua, para el cumplimiento de entregas oportunas y demás objetivos organizacionales. 
+
+    separador   
     
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2	Documentos aplicados
     
-    p En lo que respecta a los envíos en condición de envío especializado, han de procesarse documentos a los que se les aplica un trato diferenciado, por ejemplo, los apostillados, las notificaciones judiciales, historias clínicas, documentos de alta confidencialidad, entre otros.
+    p En lo que respecta a los envíos en condición de #[strong envío especializado,] han de procesarse documentos a los que se les aplica un trato diferenciado, por ejemplo, los apostillados, las notificaciones judiciales, historias clínicas, documentos de alta confidencialidad, entre otros.
     p.mb-5 Al respecto, se muestran a continuación, algunos aspectos de suma importancia que debe tener en cuenta:
 
     
