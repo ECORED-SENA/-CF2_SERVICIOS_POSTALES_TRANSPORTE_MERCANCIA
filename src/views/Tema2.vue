@@ -24,7 +24,7 @@
           .row.modalabso
             .col-auto
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                span Más Información
+                span.text-small Más Información
                 .indicador--click(v-if="mostrarIndicador")
       
     
@@ -46,13 +46,13 @@
           .infografia-autores.p-5(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema2/t2-2.svg" alt="Adornos flotantes")
             .infografia-autores__img(@mouseover="mostrarIndicador = false")
-              img(src="@/assets/curso/tema2/1.png" style="left: 37.8% ; right:  ; top: 20.2% ; bottom:  ; width: 130px ")
+              img(src="@/assets/curso/tema2/1.png" style="left: 37.8% ; right:  ; top: 20.2% ; bottom:  ; width: 115px ")
               .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
-            .infografia-autores__img: img(src="@/assets/curso/tema2/2.png" style="left: 51.2% ; right:  ; top: 20.4% ; bottom:  ; width: 130px ")
-            .infografia-autores__img: img(src="@/assets/curso/tema2/3.png" style="left: 57.9% ; right:  ; top: 43% ; bottom:  ; width: 130px ")
-            .infografia-autores__img: img(src="@/assets/curso/tema2/4.png" style="left: 51.2% ; right:  ; top: 65% ; bottom:  ; width: 130px ")
-            .infografia-autores__img: img(src="@/assets/curso/tema2/5.png" style="left: 37.8% ; right:  ; top: 65% ; bottom:  ; width: 130px ")
-            .infografia-autores__img: img(src="@/assets/curso/tema2/6.png" style="left: 31.1% ; right:  ; top: 42.5% ; bottom:  ; width: 130px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/2.png" style="left: 51.2% ; right:  ; top: 20.4% ; bottom:  ; width: 115px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/3.png" style="left: 57.9% ; right:  ; top: 43% ; bottom:  ; width: 115px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/4.png" style="left: 51.2% ; right:  ; top: 65% ; bottom:  ; width: 115px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/5.png" style="left: 37.8% ; right:  ; top: 65% ; bottom:  ; width: 115px ")
+            .infografia-autores__img: img(src="@/assets/curso/tema2/6.png" style="left: 31.1% ; right:  ; top: 42.5% ; bottom:  ; width: 115px ")
         .tarjeta.color-acento-botones.p-3(x="33%" y="26%" numero="+")
           h4 La evolución o revolución 
           p Logra aumentar las posibilidades de supervivencia de una civilización en términos de mayor expectativa de años de vida. Los primeros servicios postales en la era antigua eran mensajero a pie o  a caballo.
