@@ -23,7 +23,7 @@
         template(v-slot:imagen)
           .row.modalabso
             .col-auto
-              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+              a.boton_1.color-acento-botones.indicador__container(@click="modal1 = true")
                 span.text-small Más Información
                 .indicador--click(v-if="mostrarIndicador")
       
