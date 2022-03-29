@@ -252,19 +252,19 @@ export default {
     {
       texto: 'Fedex Express. (2020). Códigos postales de Colombia. Fedex.',
       tipo: 'Documento',
-      link: '../downloads/codigos_postales_de_Colombia_Fedex.pdf',
+      descarga: '/downloads/codigos_postales_de_Colombia_Fedex.pdf',
     },
     {
       texto:
         'Ministerio de las Tecnologías de la Información y Comunicaciones de Colombia. (2020). Plan de modernización del sector postal 2020 – 2024. MinTIC.',
       tipo: 'Documento',
-      link: '../downloads/modernizacion_sector_postal_2020_2024.pdf',
+      descarga: '/downloads/modernizacion_sector_postal_2020_2024.pdf',
     },
     {
       texto:
         'Ley 9 de 1991. Por la cual se dictan normas generales a las que deberá sujetarse el Gobierno Nacional para regular los cambios internacionales y se adoptan medidas complementarias. Enero 17 de 1991. ',
       tipo: 'Documento',
-      link: '../downloads/ley_9_1991.pdf',
+      descarga: '/downloads/ley_9_1991.pdf',
     },
     {
       texto:
@@ -277,7 +277,7 @@ export default {
       texto:
         'Ley 1369 de 2009. Por medio de la cual se establece el régimen de los servicios postales y se dictan otras disposiciones. Diciembre 30 de 2009. DO. N° 47.578. ',
       tipo: 'Documento',
-      link: '../downloads/ley_1369_2009.pdf',
+      descarga: '/downloads/ley_1369_2009.pdf',
     },
   ],
   creditos: {
@@ -294,6 +294,27 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura -  Regional Santander',
+      },
+      {
+        nombre: 'Cesar Augusto Cano Echeverri',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Risaralda',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
