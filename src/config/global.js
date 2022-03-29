@@ -252,20 +252,19 @@ export default {
     {
       texto: 'Fedex Express. (2020). Códigos postales de Colombia. Fedex.',
       tipo: 'Documento',
-      link: 'https://www.fedex.com/lacpdf/CO_CodigosPostales_02014.pdf',
+      link: '../downloads/codigos_postales_de_Colombia_Fedex.pdf',
     },
     {
       texto:
         'Ministerio de las Tecnologías de la Información y Comunicaciones de Colombia. (2020). Plan de modernización del sector postal 2020 – 2024. MinTIC.',
       tipo: 'Documento',
-      link: 'https://mintic.gov.co/portal/715/articles-150820_recurso_1.pdf',
+      link: '../downloads/modernizacion_sector_postal_2020_2024.pdf',
     },
     {
       texto:
         'Ley 9 de 1991. Por la cual se dictan normas generales a las que deberá sujetarse el Gobierno Nacional para regular los cambios internacionales y se adoptan medidas complementarias. Enero 17 de 1991. ',
       tipo: 'Documento',
-      link:
-        'https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf',
+      link: '../downloads/ley_9_1991.pdf',
     },
     {
       texto:
@@ -278,7 +277,7 @@ export default {
       texto:
         'Ley 1369 de 2009. Por medio de la cual se establece el régimen de los servicios postales y se dictan otras disposiciones. Diciembre 30 de 2009. DO. N° 47.578. ',
       tipo: 'Documento',
-      link: 'https://colombiatic.mintic.gov.co/679/articles-621_doc_norma.pdf',
+      link: '../downloads/ley_1369_2009.pdf',
     },
   ],
   creditos: {

@@ -64,7 +64,7 @@ export default {
   .tarjeta
     background-color: $color-banner-fondo
     background-size: cover
-    background-position: center
+    //background-position: center
 
   &__info
     display: flex
