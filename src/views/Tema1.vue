@@ -29,14 +29,10 @@
             .col.mb-3.mb-sm-0
               p.text-small Amplíe su conocimiento sobre la normatividad y disposiciones legales que regulan los servicios postales en Colombia, para ello, observe el video que aquí se propone.  
             .col-sm-auto.justify-star
-              a.boton.color-acento-botones.indicador__container(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
+              a.boton.color-acento-botones.indicador__container(href="https://www.youtube.com/embed/kGSx33aFKbk" target="_blank")
                 span Ver más
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
-          
-         
-
-
           
 </template>
 
