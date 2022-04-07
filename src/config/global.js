@@ -348,73 +348,73 @@ export default {
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Camilo Andrés Bolaño Rey',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jaime Enrique Díaz Reyes',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Estefani Daniela Gallo Cortés',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Lina Marcela Pérez Manchego',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Lady Adriana Ariza Luque',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Ernesto Navarro Jaimes',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Carmen Alicia Martínez Torre',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Laura Ximena Hurtado Villalba',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Ángela María Maldonado Jaime',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Yicelly Estefania Mesa Silva',
-        cargo: 'Producción audiovisua',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
