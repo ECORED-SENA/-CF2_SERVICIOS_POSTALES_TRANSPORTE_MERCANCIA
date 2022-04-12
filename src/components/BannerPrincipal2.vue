@@ -45,7 +45,9 @@ export default {
 <style lang="sass">
 .img-p
   top: 3%
-  right: 1%
+  right: -4%
+  @media screen and ( max-width: 1400px)
+    right: 1%
 .fondo-contenido
   position: absolute
   padding: 0px
