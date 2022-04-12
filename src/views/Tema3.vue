@@ -36,7 +36,7 @@
             .col.mb-3.mb-sm-0
               p.m-0.text-small Conozca y estudie el listado de códigos postales de Colombia, visitando el documento que aquí se muestra  
             .col-sm-auto.justify-star
-              a.boton.color-acento-botones.indicador__container(href="https://www.fedex.com/lacpdf/CO_CodigosPostales_02014.pdf" target="_blank")
+              a.boton.color-acento-botones.indicador__container(:href="obtenerLink('/downloads/cod_post_Fedex.pdf')" target="_blank")
                 span Ver más
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
@@ -46,7 +46,7 @@
             .col.mb-3.mb-sm-0
               p.m-0.text-small Realice un recorrido por el mapa interactivo digital de códigos postales del Estado colombiano. Para ello, explore este enlace 
             .col-sm-auto.justify-star
-              a.boton.color-acento-botones.indicador__container(:href="obtenerLink('/downloads/cod_post_Fedex.pdf')" target="_blank")
+              a.boton.color-acento-botones.indicador__container(href="http://visor.codigopostal.gov.co/472/visor/" target="_blank")
                 span Ver más
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
