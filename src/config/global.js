@@ -179,7 +179,7 @@ export default {
     {
       termino: 'Cecograma',
       significado:
-        'producto postal que permite hacer envíos de elementos cacográficos con signos escritos en el sistema braille, sistema para no videntes.',
+        'producto postal que permite hacer envíos de elementos cecográficos con signos escritos en el sistema braille, sistema para no videntes.',
     },
     {
       termino: 'Codificación',
@@ -252,7 +252,7 @@ export default {
     {
       texto: 'Fedex Express. (2020). Códigos postales de Colombia. Fedex.',
       tipo: 'Documento',
-      descarga: '/downloads/cod_post_fedex.pdf',
+      descarga: '/downloads/cod_fedex.pdf',
     },
     {
       texto:
