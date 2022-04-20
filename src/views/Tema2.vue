@@ -242,7 +242,7 @@ export default {
       {
         titulo: 'Cecogramas',
         texto:
-          'Impresos que utilizan signos de cecografía en sistema braille (en tinta o alto relieve). Están destinados exclusivamente para personas con limitación visual o no videntes. Incluyen libros, revistas, libros digitales y papel destinado para uso de ciegos. Estos envíos de #[strong cecogramas] pueden tener hasta un peso máximo de 7 kilogramos.',
+          'Impresos que utilizan signos de cecografía en sistema braille (en tinta o alto relieve). Están destinados exclusivamente para personas con limitación visual o no videntes. Incluyen libros, revistas, libros digitales y papel destinado para uso de ciegos. Estos envíos de <b>cecogramas</b> pueden tener hasta un peso máximo de 7 kilogramos.',
         imagen: require('@/assets/curso/tema2/t2-12.png'),
       },
       {

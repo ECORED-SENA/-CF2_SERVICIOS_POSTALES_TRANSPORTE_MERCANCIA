@@ -162,7 +162,7 @@ export default {
       referencia:
         'Resolución 6128 de 2020. [Comisión de Regulación de Comunicaciones]. Por la cual se fijan los aspectos técnicos, los indicadores y las metas de los criterios de calidad y las tarifas para la prestación de los servicios pertenecientes al servicio postal. Diciembre 29 de 2020. ',
       link:
-        'https://www.crcom.gov.co/uploads/images/files/Resoluci%C3%B3n%20CRC%206128%20de%202020.pdf',
+        'https://www.crcom.gov.co/sites/default/files/normatividad/00006128.pdf',
     },
   ],
   glosario: [
@@ -252,7 +252,7 @@ export default {
     {
       texto: 'Fedex Express. (2020). Códigos postales de Colombia. Fedex.',
       tipo: 'Documento',
-      descarga: '/downloads/codigos_postales_de_Colombia_Fedex.pdf',
+      descarga: '/downloads/cod_post_fedex.pdf',
     },
     {
       texto:
